@@ -1,0 +1,28 @@
+site_name: Mkdocs Miguel
+
+nav:
+  - Principal: index.md
+  - About: about.md
+  - Post 2: post2.md
+  - Post 1: post1.md
+
+theme:
+  name: material
+  logo: images/logo.png
+  feautures:
+    - header.autohide
+  palette:
+    primary: teal
+  language: es
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+
+plugins:
+  - tags:
+      tags_file: tags.md
+
+
+site_url: https://miguelmtnezz.github.io/mkdocs/
